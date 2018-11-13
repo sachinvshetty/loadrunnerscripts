@@ -1,0 +1,211 @@
+Performance testing 
+---
+jvisual ---bin path /..jdk 
+here we can check the graph.
+
+
+virtual user generator ----- called as vugen ----where test script are build
+controller --running the script
+analysis ---analyze the SLA
+
+
+------
+sessions -----starting to end--login to logout
+in loadrunner min 50  virtual users can hit .
+
+transactions ----each action. -----payment,mini statement,fund transfer
+----payment---critical transaction
+
+
+set of transactions  ---makes the test script.
+
+
+
+response time ---is the  output ----SLA
+if SLA are not met it is performance degradation
+Defect in loadrunner is called bottleneck.
+
+
+https--------->web service------>application server ------>DB
+
+the  roundtrip is the  response time.
+degradtion can  happen due to coding in webserve or app server or db
+not using the  latest funcationlity like  hashmap ---ex
+
+Post identifying the Bottleneck.
+Use the Profiling tool to analyse the delay ---
+webserve and appserver -----Profiling
+Analysing DB is called Tuning
+
+
+
+tEST ENVIRONMENT (load env) SHOULD BE  80% similar to PROD in performace testing.
+
+
+Rammed testing 
+so while checking  performace of an app for 2 hrs
+
+/-\
+30 min 1000 users increased by 100 and stable ---1 hr 
+decrease 30 min
+
+
+
+
+Site :
+https://jpetstore.cfapps.io
+
+------------------------------------------
+
+f12
+network
+record is enabled
+200 ---response ok (302 --re-direct)
+preview will have basic html
+response ---code 
+
+we can say its working based on basic html and response code
+
+-----------
+parameterize the  static values like username password
+co-relation ----hadling the dynamic values like session id ---which gets changes every transaction in a session.
+imp  concept --co-relation
+
+---------------------------------
+
+File --
+category --
+protocol ----------testing differnt app 
+--select  web-http/html
+
+
+----------------
+
+once we logout ...2  resonse will come --302D and  200 ---THIS IS FINE .
+logout is least prioirty
+redirected page will have  code 200
+
+---------------------
+
+Naming standard ....
+Page_criticaltransaction_date_info
+
+JpetStore_Dogs_nov12_Baseline
+
+
+baseline ----basic version(initial) of recording ..should be left untouched ...
+will have version and  work on that.
+
+
+
+------------------------
+
+vuser_int -----this will contain launch and  login info 
+action ---all the actions
+
+
+Openruntime settings dialog box
+html based script 
+script containing explit url only
+
+--------
+
+runtime  settings
+
+----run logic 
+
+add the action..based on requirement and save
+pacing ---delay between  each login
+
+satrt new iteration fixed intervals,every 60 sec
+
+it should be completed within 60 sec
+
+think time -----manual .time delay ..
+how much time taken by user to fill the form ..provide the time delay manually.
+different ---
+replay think time as recorded
+multiplying the think time by 3
+percentage of the time ---50 to 100  of 5 sec
+
+-----------------
+log ---records all the  responses.
+
+log 
+extended log
+parameter substitution
+include environment information ...
+this is enabled only when we have issues....
+
+
+
+------------------------------------------------
+go to run settings give the browser ---
+record
+then 
+
+start transaction 
+end transaction
+--------------
+go to the harcoded value ---right click ..create parameter...
+add column 
+by name
+
+
+select next row  ----unique
+simulate parameter
+
+
+
+---------------------------
+
+record twice
+
+1.baseline
+2.baselinecompare
+
+compare using beyond compare software or tools compare in vugen
+identify the dynamic values.
+
+
+
+
+--------------------
+CO-RELATION
+replacing the  dynamic value with parameter
+---
+identify the tag(boundary) for the dynamic value.
+output --->code generation-->place the dynamic value and  identify the boundary.
+
+---> check whether it is in response by searching for the  next $$$$
+then --->.inf --->find the .inf
+
+you can chek whether oundary is correct based on regular expression---
+_csrf" value="(.*?)"/>    -------------> options regular expression
+
+
+-----
+
+web_reg_save_param("variablename","LB=","RB=",ORD=1",LAST);
+
+web_reg_save_param("csrf_token","LB=_csrf\" value=\"","RB=\"/>", "ORD=1",LAST);
+
+
+----scripts should run successfully.
+
+
+-------------------------------------
+
+
+SELECTING  RADOM VALUE
+/catalog/items/(.*?)
+
+
+
+Action.c(31): Notify: Saving Parameter "randog_1 = EST-6".
+Action.c(31): Notify: Saving Parameter "randog_2 = EST-7".
+Action.c(31): Notify: Saving Parameter "randog_count = 2".
+
+
+web_reg_save_param("randog","LB=\"/catalog/items/","RB=\">","ORD=ALL",LAST);
+

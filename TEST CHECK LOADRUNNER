@@ -1,0 +1,39 @@
+test  check in  load runner 
+
+------
+web_reg_find("text/IC=Various breeds, Exotic Varieties","savecount=enterstore",LAST);
+----/IC ignoring the case..
+savecount is a variable which  stores the count
+
+
+	lr_start_transaction("Jpetstore_enter_the_store");
+
+	/* enter the  store link */
+
+
+if(atoi(lr_eval_string("{enterstore}"))>0)     //evaluating and converting to intger
+	{
+		lr_end_transaction("Jpetstore_enter_the_store",LR_PASS);
+	}
+		else
+			
+	lr_end_transaction("Jpetstore_enter_the_store",LR_FAIL);
+
+
+
+
+
+---------------
+We can find the dynamic values based on regular expression too.
+web_reg_save_param_regexp("paramname= " ,"regexp=","group=1",LAST);
+
+
+
+PARAMETERIZE THE url....This helps in testing differnt env
+
+url is called ---endurl
+
+
+Boiler plate ----header
+script title -----tile
+script description ------have the traversal flow.
