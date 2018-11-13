@@ -18,3 +18,11 @@ if(atoi(lr_eval_string("{enterstore}"))>0)     //evaluating and converting to in
 		else
 			
 	lr_end_transaction("Jpetstore_enter_the_store",LR_FAIL);
+
+
+
+
+
+---------------
+We can find the dynamic values based on regular expression too.
+web_reg_save_param_regexp("paramname= " ,"regexp=","group=1",LAST);
