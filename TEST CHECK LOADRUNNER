@@ -26,3 +26,14 @@ if(atoi(lr_eval_string("{enterstore}"))>0)     //evaluating and converting to in
 ---------------
 We can find the dynamic values based on regular expression too.
 web_reg_save_param_regexp("paramname= " ,"regexp=","group=1",LAST);
+
+
+
+PARAMETERIZE THE url....This helps in testing differnt env
+
+url is called ---endurl
+
+
+Boiler plate ----header
+script title -----tile
+script description ------have the traversal flow.
