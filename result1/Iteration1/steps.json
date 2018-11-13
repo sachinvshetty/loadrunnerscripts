@@ -3,48 +3,48 @@
         "stepId": "STEP1",
         "stepName": "Url: jpetstore.cfapps.io",
         "infFile": "t1.inf",
-        "time": 1542089012020
+        "time": 1542101482367
     },
     {
         "stepId": "STEP2",
         "stepName": "Url: Enter the Store",
         "infFile": "t2.inf",
-        "time": 1542089015108
+        "time": 1542101484627
     },
     {
         "stepId": "STEP3",
         "stepName": "Url: Sign In",
         "infFile": "t3.inf",
-        "time": 1542089018260
+        "time": 1542101487038
     },
     {
         "stepId": "STEP4",
         "stepName": "Submit Data: login",
         "infFile": "t4.inf",
-        "time": 1542089023920
+        "time": 1542101489948
     },
     {
         "stepId": "STEP5",
         "stepName": "Url: sm_dogs.gif",
         "infFile": "t5.inf",
-        "time": 1542089031041
+        "time": 1542101493787
     },
     {
         "stepId": "STEP6",
         "stepName": "Url: K9-BD-01",
         "infFile": "t6.inf",
-        "time": 1542089034420
+        "time": 1542101495552
     },
     {
         "stepId": "STEP7",
-        "stepName": "Url: EST-6",
+        "stepName": "Url: {randog1}",
         "infFile": "t7.inf",
-        "time": 1542089037271
+        "time": 1542101498338
     },
     {
         "stepId": "STEP8",
         "stepName": "Url: logout",
         "infFile": "t8.inf",
-        "time": 1542089043552
+        "time": 1542101504824
     }
 ]

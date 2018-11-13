@@ -1,3 +1,4 @@
+
 vuser_init()
 {
 	//832ee618-9ef5-419b-8ce9-f57b90bbafe7
@@ -15,7 +16,9 @@ vuser_init()
 		"Mode=HTML", 
 		LAST);
 
+	//Various Breeds, Exotic Varieties
 	
+	web_reg_find("text/IC=Various breeds, Exotic Varieties","savecount=enterstore",LAST);
 	lr_start_transaction("Jpetstore_enter_the_store");
 
 	/* enter the  store link */
@@ -38,7 +41,16 @@ vuser_init()
 //		"0IDxAGGAEiAzAwMTABEAwaAhgLOogL2CIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQCxoCGAtqpcvLIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCxBBoCGAsUgePjIgQgASACKAEaKAgNEAEaGgoNCA0QBhgBIgMwMDEwARDXHBoCGAscwVUEIgQgASACKAEaKAgOEAEaGgoNCA4QBhgBIgMwMDEwARCUPhoCGAvjrS_bIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw", "Referer=", ENDITEM, 
 		LAST);
 	
-	lr_end_transaction("Jpetstore_enter_the_store",LR_AUTO);
+	//lr_end_transaction("Jpetstore_enter_the_store",LR_AUTO);
+	
+	if(atoi(lr_eval_string("{enterstore}"))>0)
+	{
+		lr_end_transaction("Jpetstore_enter_the_store",LR_PASS);
+	}
+		else
+			
+	lr_end_transaction("Jpetstore_enter_the_store",LR_FAIL);
+	
 	
 	web_reg_save_param("csrf_token","LB=_csrf\" value=\"","RB=\"/>", "ORD=1",LAST);
 

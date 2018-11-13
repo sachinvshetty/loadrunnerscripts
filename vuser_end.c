@@ -13,7 +13,7 @@ vuser_end()
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=https://jpetstore.cfapps.io/catalog/items/EST-6", 
+		"Referer=https://jpetstore.cfapps.io/catalog/items/{randog1}", 
 		"Snapshot=t11.inf", 
 		"Mode=HTML", 
 		LAST);

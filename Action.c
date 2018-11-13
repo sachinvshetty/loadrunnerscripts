@@ -1,3 +1,4 @@
+
 Action()
 {
 	lr_start_transaction("Jpetstore_dog");
@@ -20,7 +21,7 @@ Action()
 		LAST);
 	
 	lr_end_transaction("Jpetstore_dog",LR_AUTO);
-
+web_reg_save_param("randog","LB=\"/catalog/items/","RB=\">","ORD=ALL",LAST);
 	
 	/* clicking on bulldog */
 	lr_start_transaction("jpetstore_bulldog");
@@ -41,7 +42,7 @@ Action()
 	
 	lr_end_transaction("jpetstore_bulldog",LR_AUTO);
 
-	
+		lr_save_string(lr_paramarr_random("randog"),"randog1");
 	
 	
 	/* selecting male adult bulldog */
@@ -51,8 +52,8 @@ Action()
 
 	//lr_think_time(27);
 
-	web_url("EST-6", 
-		"URL=https://jpetstore.cfapps.io/catalog/items/EST-6", 
+	web_url("{randog1}", 
+		"URL=https://jpetstore.cfapps.io/catalog/items/{randog1}", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -64,3 +65,4 @@ Action()
 
 	return 0;
 }
+
