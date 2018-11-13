@@ -1,0 +1,20 @@
+test  check in  load runner 
+
+------
+web_reg_find("text/IC=Various breeds, Exotic Varieties","savecount=enterstore",LAST);
+----/IC ignoring the case..
+savecount is a variable which  stores the count
+
+
+	lr_start_transaction("Jpetstore_enter_the_store");
+
+	/* enter the  store link */
+
+
+if(atoi(lr_eval_string("{enterstore}"))>0)     //evaluating and converting to intger
+	{
+		lr_end_transaction("Jpetstore_enter_the_store",LR_PASS);
+	}
+		else
+			
+	lr_end_transaction("Jpetstore_enter_the_store",LR_FAIL);
