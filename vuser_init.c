@@ -1,6 +1,7 @@
 vuser_init()
 {
-	
+	//832ee618-9ef5-419b-8ce9-f57b90bbafe7
+	//_csrf" value="832ee618-9ef5-419b-8ce9-f57b90bbafe7"/>
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
@@ -14,13 +15,13 @@ vuser_init()
 		"Mode=HTML", 
 		LAST);
 
+	
 	lr_start_transaction("Jpetstore_enter_the_store");
 
 	/* enter the  store link */
 
 	web_revert_auto_header("Upgrade-Insecure-Requests");
-
-	web_url("Enter the Store", 
+	web_url("Enter the Store",
 		"URL=https://jpetstore.cfapps.io/catalog", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -38,6 +39,9 @@ vuser_init()
 		LAST);
 	
 	lr_end_transaction("Jpetstore_enter_the_store",LR_AUTO);
+	
+	web_reg_save_param("csrf_token","LB=_csrf\" value=\"","RB=\"/>", "ORD=1",LAST);
+
 
 	lr_start_transaction("Jpetstore_Signin");
 
@@ -80,7 +84,7 @@ vuser_init()
 		"Snapshot=t6.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=_csrf", "Value=832ee618-9ef5-419b-8ce9-f57b90bbafe7", ENDITEM, 
+		"Name=_csrf", "Value={csrf_token}", ENDITEM, 
 		"Name=username", "Value={Username}", ENDITEM, 
 		"Name=password", "Value={Password}", ENDITEM, 
 		LAST);

@@ -39,7 +39,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 	
-	lr_end_transaction("Jpetstore_dog",LR_AUTO);
+	lr_end_transaction("jpetstore_bulldog",LR_AUTO);
 
 	
 	

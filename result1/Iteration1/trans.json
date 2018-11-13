@@ -1,17 +1,37 @@
 [
     {
         "transactionName": "Jpetstore_enter_the_store",
-        "rawStartTime": 1542016891014,
-        "rawEndTime": 1542016894079
+        "rawStartTime": 1542089012022,
+        "rawEndTime": 1542089015109
     },
     {
         "transactionName": "Jpetstore_Signin",
-        "rawStartTime": 1542016894781,
-        "rawEndTime": 1542016895877
+        "rawStartTime": 1542089016561,
+        "rawEndTime": 1542089018262
     },
     {
         "transactionName": "Jpet_store_sginin_credentials",
-        "rawStartTime": 1542016896422,
-        "rawEndTime": 1542016897114
+        "rawStartTime": 1542089020001,
+        "rawEndTime": 1542089023922
+    },
+    {
+        "transactionName": "Jpetstore_dog",
+        "rawStartTime": 1542089029505,
+        "rawEndTime": 1542089031043
+    },
+    {
+        "transactionName": "jpetstore_bulldog",
+        "rawStartTime": 1542089032641,
+        "rawEndTime": 1542089034422
+    },
+    {
+        "transactionName": "jpetstore_maleadultdog",
+        "rawStartTime": 1542089035936,
+        "rawEndTime": 1542089037273
+    },
+    {
+        "transactionName": "Jpetstore_signout",
+        "rawStartTime": 1542089041200,
+        "rawEndTime": 1542089043554
     }
 ]

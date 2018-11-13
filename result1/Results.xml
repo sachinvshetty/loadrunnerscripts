@@ -139,8 +139,8 @@
 <Step rID="T4">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:26]]></Time>
-<TimeTick>1542016886</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:28]]></Time>
+<TimeTick>1542089008</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="7" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -148,8 +148,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: jpetstore.cfapps.io]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:30]]></Time>
-<TimeTick>1542016890</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:32]]></Time>
+<TimeTick>1542089012</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="8" status="Passed" >
 <Disp><![CDATA[Url: jpetstore.cfapps.io]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -160,8 +160,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:31]]></Time>
-<TimeTick>1542016891</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:33]]></Time>
+<TimeTick>1542089013</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="9" >
 <Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
 </NodeArgs>
@@ -169,8 +169,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Url: Enter the Store]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:34]]></Time>
-<TimeTick>1542016894</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:35]]></Time>
+<TimeTick>1542089015</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Url: Enter the Store]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -179,286 +179,174 @@
 </NodeArgs>
 </Step>
 <Step rID="T8">
-<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:35]]></Time>
-<TimeTick>1542016895</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="11" >
-<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>csrf_token</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=_csrf" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="/></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>ORD=1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:33:36]]></Time>
+<TimeTick>1542089016</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="11" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:33:37]]></Time>
+<TimeTick>1542089017</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="12" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Url: Sign In]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:35]]></Time>
-<TimeTick>1542016895</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
+<Time><![CDATA[11/13/2018 - 11:33:38]]></Time>
+<TimeTick>1542089018</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
 <Disp><![CDATA[Url: Sign In]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T10">
+<Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:36]]></Time>
-<TimeTick>1542016896</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="13" >
+<Time><![CDATA[11/13/2018 - 11:33:40]]></Time>
+<TimeTick>1542089020</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="14" >
 <Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T11">
+<Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: https://jpetstore.cfapps.io</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:36]]></Time>
-<TimeTick>1542016896</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="14" >
+<Time><![CDATA[11/13/2018 - 11:33:40]]></Time>
+<TimeTick>1542089020</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="15" >
 <Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T12">
+<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:37]]></Time>
-<TimeTick>1542016897</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="15" status="Failed" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:33:43]]></Time>
+<TimeTick>1542089023</TimeTick>
+<NodeArgs eType="General" icon="9" nRep="16" status="Passed" >
 <Disp><![CDATA[Submit Data: login]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T13">
-<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:37]]></Time>
-<TimeTick>1542016897</TimeTick>
-<NodeArgs eType="General" icon="1" nRep="16" status="Failed" >
-<Disp><![CDATA[Script Aborted!]]></Disp>
-</NodeArgs>
-</Step>
-<Summary sTime="11/12/2018 - 15:31:26" eTime="11/12/2018 - 15:31:38" passed="3" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="3" nRep="6" status="Failed" >
+<Summary sTime="11/13/2018 - 11:33:28" eTime="11/13/2018 - 11:33:47" passed="4" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="6" status="Passed" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="2" nRep="5" status="Failed" >
-<Disp><![CDATA[JpetStore_Dog_NOV12_Baselinecompare Iteration 1 (Row 1)]]></Disp>
+<Action rID="T14">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:33:50]]></Time>
+<TimeTick>1542089030</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="19" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
-</DIter>
-<DIter rID="T14" iterID="2" >
-<Action rID="T15">
-<AName><![CDATA[vuser_init]]></AName>
+</Step>
 <Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Url: sm_dogs.gif]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:33:51]]></Time>
+<TimeTick>1542089031</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="20" status="Passed" >
+<Disp><![CDATA[Url: sm_dogs.gif]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t5.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:43]]></Time>
-<TimeTick>1542016903</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:53]]></Time>
+<TimeTick>1542089033</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="21" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T17">
-<Obj plainTxt="False" ><![CDATA[Url: jpetstore.cfapps.io]]></Obj>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Url: K9-BD-01]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:45]]></Time>
-<TimeTick>1542016905</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:54]]></Time>
+<TimeTick>1542089034</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="22" status="Passed" >
-<Disp><![CDATA[Url: jpetstore.cfapps.io]]></Disp>
+<Disp><![CDATA[Url: K9-BD-01]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t1.inf]]></Path>
+<Path><![CDATA[\Iteration1\t6.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T18">
+<Step rID="T19">
 <Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:46]]></Time>
-<TimeTick>1542016906</TimeTick>
+<Time><![CDATA[11/13/2018 - 11:33:56]]></Time>
+<TimeTick>1542089036</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="23" >
 <Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T19">
-<Obj plainTxt="False" ><![CDATA[Url: Enter the Store]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:48]]></Time>
-<TimeTick>1542016908</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="24" status="Passed" >
-<Disp><![CDATA[Url: Enter the Store]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t2.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
 <Step rID="T20">
-<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:49]]></Time>
-<TimeTick>1542016909</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="25" >
-<Disp><![CDATA[Service: Add Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T21">
-<Obj plainTxt="False" ><![CDATA[Url: Sign In]]></Obj>
+<Obj plainTxt="False" ><![CDATA[Url: EST-6]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:50]]></Time>
-<TimeTick>1542016910</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="26" status="Passed" >
-<Disp><![CDATA[Url: Sign In]]></Disp>
+<Time><![CDATA[11/13/2018 - 11:33:57]]></Time>
+<TimeTick>1542089037</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="24" status="Passed" >
+<Disp><![CDATA[Url: EST-6]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t3.inf]]></Path>
+<Path><![CDATA[\Iteration1\t7.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
+<Summary sTime="11/13/2018 - 11:33:48" eTime="11/13/2018 - 11:33:59" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="18" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Action rID="T21">
+<AName><![CDATA[vuser_end]]></AName>
 <Step rID="T22">
-<Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:51]]></Time>
-<TimeTick>1542016911</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="27" >
-<Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:34:01]]></Time>
+<TimeTick>1542089041</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="27" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T23">
-<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: https://jpetstore.cfapps.io</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:51]]></Time>
-<TimeTick>1542016911</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="28" >
-<Disp><![CDATA[Service: Add Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T24">
-<Obj plainTxt="False" ><![CDATA[Submit Data: login]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:52]]></Time>
-<TimeTick>1542016912</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="29" status="Failed" >
-<Disp><![CDATA[Submit Data: login]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Url: logout]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[11/13/2018 - 11:34:03]]></Time>
+<TimeTick>1542089043</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="28" status="Passed" >
+<Disp><![CDATA[Url: logout]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration2\t4.inf]]></Path>
+<Path><![CDATA[\Iteration1\t8.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="11/12/2018 - 15:31:43" eTime="11/12/2018 - 15:31:53" passed="3" failed="1" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="3" nRep="20" status="Failed" >
-<Disp><![CDATA[vuser_init Summary]]></Disp>
+<Summary sTime="11/13/2018 - 11:34:00" eTime="11/13/2018 - 11:34:05" passed="1" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="3" nRep="26" status="Passed" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="2" nRep="19" status="Failed" >
-<Disp><![CDATA[JpetStore_Dog_NOV12_Baselinecompare Iteration 2 (Row 2)]]></Disp>
+<NodeArgs eType="StartIteration" icon="2" nRep="5" status="Passed" >
+<Disp><![CDATA[JpetStore_Dog_NOV12_Baselinecompare Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<DIter rID="T25" iterID="3" >
-<Action rID="T26">
-<AName><![CDATA[vuser_init]]></AName>
-<Step rID="T27">
-<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:31:58]]></Time>
-<TimeTick>1542016918</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="34" >
-<Disp><![CDATA[Service: Add Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T28">
-<Obj plainTxt="False" ><![CDATA[Url: jpetstore.cfapps.io]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:01]]></Time>
-<TimeTick>1542016921</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="35" status="Passed" >
-<Disp><![CDATA[Url: jpetstore.cfapps.io]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t1.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T29">
-<Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:01]]></Time>
-<TimeTick>1542016921</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="36" >
-<Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T30">
-<Obj plainTxt="False" ><![CDATA[Url: Enter the Store]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:03]]></Time>
-<TimeTick>1542016923</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="37" status="Passed" >
-<Disp><![CDATA[Url: Enter the Store]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t2.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T31">
-<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:04]]></Time>
-<TimeTick>1542016924</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="38" >
-<Disp><![CDATA[Service: Add Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T32">
-<Obj plainTxt="False" ><![CDATA[Url: Sign In]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:05]]></Time>
-<TimeTick>1542016925</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="39" status="Passed" >
-<Disp><![CDATA[Url: Sign In]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t3.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Step rID="T33">
-<Obj plainTxt="False" ><![CDATA[Service: Remove/Revert Auto Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Remove/revert <BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests</FONT></STRONG> header, implicit generation: <STRONG>Yes</STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:06]]></Time>
-<TimeTick>1542016926</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="40" >
-<Disp><![CDATA[Service: Remove/Revert Auto Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T34">
-<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>Origin: https://jpetstore.cfapps.io</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:06]]></Time>
-<TimeTick>1542016926</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="41" >
-<Disp><![CDATA[Service: Add Header]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T35">
-<Obj plainTxt="False" ><![CDATA[Submit Data: login]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11/12/2018 - 15:32:07]]></Time>
-<TimeTick>1542016927</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="42" status="Failed" >
-<Disp><![CDATA[Submit Data: login]]></Disp>
-<BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration3\t4.inf]]></Path>
-</BtmPane>
-</NodeArgs>
-</Step>
-<Summary sTime="11/12/2018 - 15:31:58" eTime="11/12/2018 - 15:32:08" passed="3" failed="1" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="3" nRep="33" status="Failed" >
-<Disp><![CDATA[vuser_init Summary]]></Disp>
-</NodeArgs>
-</Action>
-<NodeArgs eType="StartIteration" icon="2" nRep="32" status="Failed" >
-<Disp><![CDATA[JpetStore_Dog_NOV12_Baselinecompare Iteration 3 (Row 3)]]></Disp>
-</NodeArgs>
-</DIter>
-<Summary sTime="11/12/2018 - 15:31:12" eTime="11/12/2018 - 15:32:13" passed="9" failed="4" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
+<Summary sTime="11/13/2018 - 11:33:16" eTime="11/13/2018 - 11:34:19" passed="8" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test JpetStore_Dog_NOV12_Baselinecompare Summary]]></Disp>
 </NodeArgs>
 </Doc>

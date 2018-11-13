@@ -19,7 +19,29 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="94978613440.idx" Filter="1" />
+    <FileEntry Name="9497861344_5EG.265.idx" Filter="1" />
+    <FileEntry Name="9497861344_7Fp.209.idx" Filter="1" />
+    <FileEntry Name="9497861344_8st.251.idx" Filter="1" />
+    <FileEntry Name="9497861344_An5.567.idx" Filter="1" />
+    <FileEntry Name="9497861344_aWp.901.idx" Filter="1" />
+    <FileEntry Name="9497861344_Cjz.83.idx" Filter="1" />
+    <FileEntry Name="9497861344_eeA.409.idx" Filter="1" />
+    <FileEntry Name="9497861344_EwF.53.idx" Filter="1" />
+    <FileEntry Name="9497861344_h1U.135.idx" Filter="1" />
+    <FileEntry Name="9497861344_hVs.229.idx" Filter="1" />
+    <FileEntry Name="9497861344_i8X.233.idx" Filter="1" />
+    <FileEntry Name="9497861344_jPQ.585.idx" Filter="1" />
+    <FileEntry Name="9497861344_mo1.747.idx" Filter="1" />
+    <FileEntry Name="9497861344_O6w.93.idx" Filter="1" />
+    <FileEntry Name="9497861344_QPI.889.idx" Filter="1" />
+    <FileEntry Name="9497861344_R3M.257.idx" Filter="1" />
+    <FileEntry Name="9497861344_sEf.459.idx" Filter="1" />
+    <FileEntry Name="9497861344_sil.463.idx" Filter="1" />
+    <FileEntry Name="9497861344_Tuk.359.idx" Filter="1" />
+    <FileEntry Name="9497861344_VmU.569.idx" Filter="1" />
+    <FileEntry Name="9497861344_W6c.797.idx" Filter="1" />
     <FileEntry Name="9497861344_z0Z.24.idx" Filter="1" />
+    <FileEntry Name="9497861344_ZcI.189.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -33,6 +55,7 @@
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />

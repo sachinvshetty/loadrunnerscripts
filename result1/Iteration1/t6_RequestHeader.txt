@@ -1,0 +1,11 @@
+GET /catalog/products/K9-BD-01 HTTP/1.1
+Referer: https://jpetstore.cfapps.io/catalog/categories/DOGS
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Accept: */*
+Connection: Keep-Alive
+Host: jpetstore.cfapps.io
+Cookie: JSESSIONID=DDC61D2888131EFCE9B3D5D7D835E224; __VCAP_ID__=eb0ed828-f2f6-4589-4923-a2d3
+
