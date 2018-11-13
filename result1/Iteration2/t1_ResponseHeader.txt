@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Language: en-US
+Content-Type: text/html;charset=UTF-8
+Date: Mon, 12 Nov 2018 10:01:44 GMT
+Expires: 0
+Last-Modified: Sat, 09 Jun 2018 01:57:24 GMT
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Vcap-Request-Id: 090c2893-b6f4-43a5-70b7-661b3cb4f996
+X-Xss-Protection: 1; mode=block
+Content-Length: 1208
+Connection: keep-alive
+

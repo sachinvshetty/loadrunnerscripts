@@ -1,0 +1,6 @@
+[hosts]
+accounts.google.com=
+clientservices.googleapis.com=
+jpetstore.cfapps.io=
+safebrowsing.googleapis.com=
+update.googleapis.com=

@@ -1,0 +1,14 @@
+HTTP/1.1 403 Forbidden
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=UTF-8
+Date: Mon, 12 Nov 2018 10:02:07 GMT
+Expires: 0
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Vcap-Request-Id: 3cb084f4-698d-42c9-52e0-b90a074f51f0
+X-Xss-Protection: 1; mode=block
+Content-Length: 115
+Connection: keep-alive
+

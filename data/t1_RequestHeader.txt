@@ -1,0 +1,11 @@
+POST /ListAccounts?gpsia=1&source=durations_metrics,counter:0,load_time_ms:969&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: OGPC=19008374-2:19008076-2:; ACCOUNT_CHOOSER=AFx_qI5nHFNfpvwuLGtIdHVzD8nSmtm29tCzUZi0JtprGU2tA6sK55lf2v1QC_bQLcXb3sMdkfI8ljBgcEY7sixI3ZXlBpgvrZ2uSCQKEDe-kOwWCUi8o4IQgwBN8wGNn_YtUtvXbSIQV7Axc8ABX_try7nF9oa_OQ; GAPS=1:BOzCHDfZ6t3q63hJyU7-pa9akR507T2HE1Q6KxMGHjEfPrrYoWTp0OfNyGPalQGIsRDI1DRMfHEzn4ArbzxZHd9hG7CHbA:ABI_kx1U4z1W9Au1; 1P_JAR=2018-10-19-5; NID=146=P0eA-jD3s6wbUlBoNupsfcYe_DMAwLB83IxbhaTNFWAkmoymsZN5BnEY0F0L2zXCKVWSs6X5pMDUO5HfBEI9SFYhPp6rXmUwvdpt6jTZKPTeG5ehj8e2Oxog5Hnm_8l-NM69b4aNpxKtHIr0Fm47q69xuGNBTVEPgPMG5VNTTwA8KustYwTgqPXEd5U
+

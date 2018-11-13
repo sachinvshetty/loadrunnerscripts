@@ -1,0 +1,26 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: jpetstore.cfapps.io",
+        "infFile": "t1.inf",
+        "time": 1542016891012
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Url: Enter the Store",
+        "infFile": "t2.inf",
+        "time": 1542016894078
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: Sign In",
+        "infFile": "t3.inf",
+        "time": 1542016895876
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Submit Data: login",
+        "infFile": "t4.inf",
+        "time": 1542016897111
+    }
+]

@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.html
+URL1=https://jpetstore.cfapps.io/
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_jpetstore.css
+URL2=https://jpetstore.cfapps.io/css/jpetstore.css
+[ProtocolInfo]
+ProtocolId=QTWeb

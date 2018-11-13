@@ -1,0 +1,11 @@
+POST /service/update2?cup2key=8:2861196085&cup2hreq=07a0736dd2bf60f8943ac02cd704a9dafed2e522c38b9457dc962f295c6dd2ba HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 4222
+X-Goog-Update-AppId: oimompecagnajdejgnnjijobebaeigek,mimojjlkmoijpicakmndhoigimigcmbb,hnimpnehoodheedghdeeijklkeaacbdc,hfnkpimlhhgieaddgfemjhofmfblmnib,ojjgnpkioondelmggbekfhllhdaimnho,llkgjffcdpffmhiakmfcdcblohccpfmo,khaoiebndkojlmppeemjhbpbandiljpe,giekcmmlnklenlaomppkphknjmnnpneh,gcmjkmgdlgnkkcocmoeiminaijmmjnii,aemomkdncapdnfajjbbcbdebjljbpmpj,gkmgaooipdjhmangpemjhigmamcehddo,copjbmjbojbakpaedmpkhmiplmmehfck,npdjjkjlcidkjlamlmmdelcjbcpdjocm
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-70.0.3538.77
+Content-Type: application/xml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
